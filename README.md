@@ -4,7 +4,7 @@
 
 A Discord bot for the PMMP community, originally made for the BoxOfDevs Discord. 
 
-> Forked due to bot is not verified and not suitable for public servers yet.
+> Forked due to the bot is not currently verified and lacks of discord intents and not suitable for public servers yet.
 
 ## Changelog
 
