@@ -2,7 +2,9 @@
 
 [![Join the Discord Server](https://img.shields.io/discord/252874887113342976?logo=discord)](https://www.himbeer.me/discord)
 
-A Discord bot for the PMMP community, originally made for the BoxOfDevs Discord.
+A Discord bot for the PMMP community, originally made for the BoxOfDevs Discord. 
+
+> Forked due to bot is not verified and not suitable for public servers yet.
 
 ## Changelog
 
