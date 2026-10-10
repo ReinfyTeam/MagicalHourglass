@@ -3,7 +3,7 @@ version: '3.3'
 
 services:
   magicalhourglass:
-    image: ghcr.io/himbeersaftlp/magicalhourglass:main
+    image: ghcr.io/reinfyteam/magicalhourglass:main
     container_name: magicalhourglass
     restart: unless-stopped
     environment:

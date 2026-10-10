@@ -2,9 +2,32 @@
 
 [![Join the Discord Server](https://img.shields.io/discord/252874887113342976?logo=discord)](https://www.himbeer.me/discord)
 
-A Discord bot for the PMMP community, originally made for the BoxOfDevs Discord. 
+A Discord bot for the PocketMine-MP community, maintained as a ReinfyTeam fork of the original BoxOfDevs project.
 
-> Forked due to the bot is not currently verified and lacks of discord intents and not suitable for public servers yet.
+> This fork preserves the original project history and attribution. It is intended for private or controlled community deployments until its Discord intents and operational requirements have been reviewed for a public server.
+
+## Run with Docker
+
+The repository's Docker workflow publishes the image to GitHub Container Registry as `ghcr.io/reinfyteam/magicalhourglass:main`.
+
+Copy `docker-compose.example.yml`, replace the example environment values with the bot's credentials and service IDs, and start the service with:
+
+```sh
+docker compose up -d
+```
+
+Do not commit Discord tokens or other service credentials. The bot requires the environment variables documented in the example compose file.
+
+## Run from source
+
+Install the locked project dependencies before starting the bot:
+
+```sh
+npm install
+npm start
+```
+
+The source configuration is based on `defaults.example.js`; provide the required credentials and IDs in the local configuration before starting the bot.
 
 ## Changelog
 
@@ -48,3 +71,5 @@ A Discord bot for the PMMP community, originally made for the BoxOfDevs Discord.
     - for the Docker image in `defaults.docker.js`
   - Constants like the reaction alphabet are no longer in the config file
 - Updated all dependencies
+
+The bot is maintained independently by ReinfyTeam while retaining the original project attribution.
