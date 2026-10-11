@@ -27,6 +27,15 @@ npm install
 npm start
 ```
 
+Run the dependency-free syntax check before starting the bot:
+
+```sh
+npm test
+```
+
+The check covers the JavaScript configuration and source files without
+requiring Discord credentials or a live bot connection.
+
 The source configuration is based on `defaults.example.js`; provide the required credentials and IDs in the local configuration before starting the bot.
 
 ## Changelog
