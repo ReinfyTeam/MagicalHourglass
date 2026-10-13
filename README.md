@@ -43,7 +43,7 @@ The source configuration is based on `defaults.example.js`; provide the required
 ### Version 2.0.0
 
 - Complete refactoring
-  - Organise code into seperate classes
+  - Organise code into separate classes
   - Use ES modules instead of CommonJS module format
   - Use `node-fetch` instead of `request`
   - Use custom command handler instead of switch/case
