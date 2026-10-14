@@ -23,7 +23,7 @@ Do not commit Discord tokens or other service credentials. The bot requires the 
 Install the locked project dependencies before starting the bot:
 
 ```sh
-npm install
+npm ci
 npm start
 ```
 

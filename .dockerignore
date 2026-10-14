@@ -13,7 +13,6 @@ defaults.example.js
 registered_commands.json
 # NPM package stuff
 node_modules/
-package-lock.json
 npm-debug.log
 # Docker
 Dockerfile
